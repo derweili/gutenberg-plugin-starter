@@ -2,24 +2,24 @@
 /**
  * Main plugin file
  *
- * @package     Adv_Gutenberg_Courses\Example_Blocks
- * @author      Zac Gordon (@zgordon)
+ * @package     Derweili\Plugin_Starter
+ * @author      Julian Weiland (@derweili), Zac Gordon (@zgordon)
  * @license     GPL2+
  *
  * @wordpress-plugin
- * Plugin Name: Gutenberg - Advanced Examples
+ * Plugin Name: Gutenberg - Plugin Starter
  * Plugin URI:  https://javascriptforwp.com/
- * Description: A plugin containing advanced examples for developers.  From <a href="https://javascriptforwp.com/product/advanced-gutenberg-development/">Zac Gordon's Advanced Gutenberg Development Course</a>.
+ * Description: A plugin starter for everything about Gutenberg
  * Version:     1.0.0
- * Author:      Zac Gordon
- * Author URI:  https://twitter.com/zgordon
- * Text Domain: jsforwpadvblocks
+ * Author:      Julian Weiland
+ * Author URI:  https://twitter.com/derweili
+ * Text Domain: gutenbergpluginstarter
  * Domain Path: /languages
  * License:     GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-namespace Adv_Gutenberg_Courses\Example_Blocks;
+namespace Derweili\Plugin_Starter;
 
 //  Exit if accessed directly.
 defined('ABSPATH') || exit;
@@ -62,16 +62,16 @@ function _get_plugin_url() {
 include __DIR__ . '/lib/register-scripts.php';
 
 // Register block categories
-include __DIR__ . '/lib/block-categories.php';
+// include __DIR__ . '/lib/block-categories.php';
 
 // Setup Global Block Setting Options Setting
-include __DIR__ . '/lib/wp-options.php';
+// include __DIR__ . '/lib/wp-options.php';
 
 // Register REST API Endpoint
-include __DIR__ . '/lib/rest-api-endpoint.php';
+// include __DIR__ . '/lib/rest-api-endpoint.php';
 
 // Register blocks server side
-include __DIR__ . '/lib/register-blocks.php';
+// include __DIR__ . '/lib/register-blocks.php';
 
 // Register any PHP block filters
-include __DIR__ . '/lib/block-filters.php';
+// include __DIR__ . '/lib/block-filters.php';

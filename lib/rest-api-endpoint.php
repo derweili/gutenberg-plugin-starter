@@ -1,6 +1,6 @@
 <?php 
 
-namespace Adv_Gutenberg_Courses\Example_Blocks;
+namespace Derweili\Plugin_Starter;
 
 define( 'JSFORWP_REST_NAMESPACE', 'jsforwpadvgb/v1' );
 define( 'JSFORWP_BLOCK_SETTING', 'jsforwpadvgb_block_setting' );

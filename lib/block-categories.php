@@ -1,6 +1,6 @@
 <?php
 
-namespace Adv_Gutenberg_Courses\Example_Blocks;
+namespace Derweili\Plugin_Starter;
 
 
 add_filter( 'block_categories', function( $categories, $post ) {
@@ -8,16 +8,9 @@ add_filter( 'block_categories', function( $categories, $post ) {
 		$categories,
 		[
 			[
-                'slug' => 'jsforwpadvblocks',
+                'slug' => 'gutenbergpluginstarter',
                 'icon' => 'wordpress-alt',
-				'title' => __( 'JS for WP - Advanced Blocks', 'jsforwpadvblocks' ),
-			],
-		],
-		[
-			[
-                'slug' => 'recommended',
-                'icon' => 'star-filled',
-				'title' => __( 'Recommended Blocks', 'jsforwpadvblocks' ),
+				'title' => __( 'JS for WP - Advanced Blocks', 'gutenbergpluginstarter' ),
 			],
 		]
 	);

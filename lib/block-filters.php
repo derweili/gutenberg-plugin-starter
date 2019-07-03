@@ -1,6 +1,6 @@
 <?php
 
-namespace Adv_Gutenberg_Courses\Block_Filters;
+namespace Derweili\Block_Filters;
 
 add_filter( 'render_block', __NAMESPACE__ . '\block_filters', 10, 3);
 

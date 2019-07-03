@@ -1,6 +1,6 @@
 <?php
 
-namespace Adv_Gutenberg_Courses\Example_Blocks;
+namespace Derweili\Plugin_Starter;
 
 $option_name = "jsforwpadvgb_block_setting";
 

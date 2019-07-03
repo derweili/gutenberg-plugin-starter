@@ -11,15 +11,15 @@ const PluginSidebarDemo = props => {
   return (
     <Fragment>
       <PluginSidebarMoreMenuItem target="jsforwpadvgb-demo">
-        {__("Plugin Sidebar Demo", "jsforwpadvblocks")}
+        {__("Plugin Sidebar Demo", "gutenbergpluginstarter")}
       </PluginSidebarMoreMenuItem>
       <PluginSidebar
         name="jsforwpadvgb-demo"
-        title={__("Plugin Sidebar Demo", "jsforwpadvblocks")}
+        title={__("Plugin Sidebar Demo", "gutenbergpluginstarter")}
       >
-        <PanelBody title={__("Sidebar Header", "jsforwpadvblocks")} opened>
+        <PanelBody title={__("Sidebar Header", "gutenbergpluginstarter")} opened>
           <PanelRow>
-            <p>{__("Plugin Sidebar Demo", "jsforwpadvblocks")}</p>
+            <p>{__("Plugin Sidebar Demo", "gutenbergpluginstarter")}</p>
           </PanelRow>
         </PanelBody>
       </PluginSidebar>

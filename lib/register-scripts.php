@@ -1,6 +1,6 @@
 <?php
 
-namespace Adv_Gutenberg_Courses\Example_Blocks;
+namespace Derweili\Plugin_Starter;
 
 add_action( 'init', __NAMESPACE__ . '\register_block_assets' );
 /**
@@ -17,7 +17,7 @@ function register_block_assets() {
 
 	// Register the bundled block JS file
 	wp_register_script(
-		'jsforwp-adv-gb-editor-js',
+		'gutenberg-plugin-starter-editor-js',
 		_get_plugin_url() . $editor_js_path,
 		$js_dependencies,
 		filemtime( _get_plugin_directory() . $editor_js_path ),
@@ -26,7 +26,7 @@ function register_block_assets() {
 
 	// Register editor only styles
 	wp_register_style(
-		'jsforwp-adv-gb-editor-css',
+		'gutenberg-plugin-starter-editor-css',
 		_get_plugin_url() . $editor_style_path,
 		[],
 		filemtime( _get_plugin_directory() . $editor_style_path )
@@ -34,7 +34,7 @@ function register_block_assets() {
 	
 	// Register shared editor and frontend styles
 	wp_register_style(
-		'jsforwp-adv-gb-css',
+		'gutenberg-plugin-starter-css',
 		_get_plugin_url() . $style_path,
 		[],
 		filemtime( _get_plugin_directory() . $style_path )
@@ -55,16 +55,16 @@ function block_filters(){
 
 	// Enqueue our block filters
 	wp_enqueue_script( 
-		"jsforwp-adv-gb-filters-js",
+		"gutenberg-plugin-starter-filters-js",
 		_get_plugin_url() . $filters_js_path,
-		['wp-hooks', 'lodash', 'jsforwp-adv-gb-editor-js'],
+		['wp-hooks', 'lodash', 'gutenberg-plugin-starter-editor-js'],
 		filemtime( _get_plugin_directory() . $filters_js_path ),
 		true
 	);
 
 	// Enqueue our plugin JavaScript
 	wp_enqueue_script( 
-		"jsforwp-adv-gb-plugins-js",
+		"gutenberg-plugin-starter-plugins-js",
 		_get_plugin_url() . $plugins_js_path,
 		$js_dependencies,
 		filemtime( _get_plugin_directory() . $plugins_js_path ),
@@ -73,7 +73,7 @@ function block_filters(){
 
 	// Enqueue our plugin JavaScript
 	wp_enqueue_style( 
-		"jsforwp-adv-gb-plugins-css",
+		"gutenberg-plugin-starter-plugins-css",
 		_get_plugin_url() . $plugins_style_path,
 		[],
 		filemtime( _get_plugin_directory() . $plugins_style_path )		
@@ -89,7 +89,7 @@ function frontend_assets(){
 	$frontend_js_path = "/assets/js/blocks.frontend.js";
 
 	wp_enqueue_script( 
-		"jsforwp-adv-gb-frontend-js",
+		"gutenberg-plugin-starter-frontend-js",
 		_get_plugin_url() . $frontend_js_path,
 		['wp-element'],
 		filemtime( _get_plugin_directory() . $frontend_js_path ),
