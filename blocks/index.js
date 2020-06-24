@@ -1,4 +1,7 @@
 /**
  * Import example blocks
  */
-import "./01-block";
+import "./antares-section";
+import "./antares-list";
+import "./antares-slider";
+import "./gated-asset";

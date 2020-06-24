@@ -1,0 +1,20 @@
+.edit-post-visual-editor.editor-styles-wrapper {
+    .antares-slider {
+        .slick-prev {
+            left: -45px;
+        }
+    
+        .slick-next {
+            right: -45px;
+        }
+    
+        .components-placeholder.components-placeholder {
+            margin-bottom: 0;
+        }
+
+        .content p {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}

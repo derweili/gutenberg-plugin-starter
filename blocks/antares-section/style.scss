@@ -1,0 +1,70 @@
+.antares-section {
+    position: relative;
+    padding: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    &.alignfull + .antares-section.alignfull {
+        margin-top: -50px;
+    }
+    
+    @media screen and (min-width: 950px) {
+        padding: 75px 123px;
+        margin-left: -120px;
+        margin-right: -120px;
+        
+    }
+
+    &.color-blue {
+        background-color: #0058A7;
+        color: white;
+    }
+    &.color-black {
+        background-color: black;
+        color: white;
+    }
+    &.color-gray {
+        background-color: #E8E8E8;
+    }
+    &.color-light-blue {
+        background-color: #DBEFFB;
+    }
+    
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    .backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #464545;
+        z-index: 2;
+    }
+
+    .antares-section--inner {
+        z-index: 3;
+        position: relative;
+
+        > *:last-child{
+            margin-bottom: 0!important;
+        }
+    }
+}
+
+.block-editor-block-list__block[data-align=full] > .antares-section,
+.antares-section.alignfull {
+    padding: 50px 20px;
+    
+    @media (min-width: 800px){
+        padding: 114px 20px;
+    }
+}

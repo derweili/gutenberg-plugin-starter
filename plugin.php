@@ -2,24 +2,24 @@
 /**
  * Main plugin file
  *
- * @package     Derweili\Plugin_Starter
+ * @package     Antares\Plugin
  * @author      Julian Weiland (@derweili), Zac Gordon (@zgordon)
  * @license     GPL2+
  *
  * @wordpress-plugin
- * Plugin Name: Gutenberg - Plugin Starter
- * Plugin URI:  https://javascriptforwp.com/
- * Description: A plugin starter for everything about Gutenberg
+ * Plugin Name: Antares WordPress Plugin
+ * Plugin URI:  https://www.antares-lcs.de
+ * Description: WordPress Plugin für Antares LCS
  * Version:     1.0.0
- * Author:      Julian Weiland
- * Author URI:  https://twitter.com/derweili
- * Text Domain: gutenbergpluginstarter
+ * Author:      TW Werbeagenten Heidelberg GmbH
+ * Author URI:  https://www.werbeagenten.de
+ * Text Domain: antaresplugin
  * Domain Path: /languages
  * License:     GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-namespace Derweili\Plugin_Starter;
+namespace Antares\Plugin;
 
 //  Exit if accessed directly.
 defined('ABSPATH') || exit;
@@ -71,7 +71,7 @@ include __DIR__ . '/lib/register-scripts.php';
 // include __DIR__ . '/lib/rest-api-endpoint.php';
 
 // Register blocks server side
-// include __DIR__ . '/lib/register-blocks.php';
+include __DIR__ . '/lib/register-blocks.php';
 
 // Register any PHP block filters
 // include __DIR__ . '/lib/block-filters.php';

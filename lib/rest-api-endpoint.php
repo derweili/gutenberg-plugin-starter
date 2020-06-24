@@ -1,6 +1,6 @@
 <?php 
 
-namespace Derweili\Plugin_Starter;
+namespace Antares\Plugin;
 
 define( 'JSFORWP_REST_NAMESPACE', 'jsforwpadvgb/v1' );
 define( 'JSFORWP_BLOCK_SETTING', 'jsforwpadvgb_block_setting' );

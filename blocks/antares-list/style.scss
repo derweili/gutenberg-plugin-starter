@@ -1,0 +1,63 @@
+.antares-list {
+    margin-bottom: 75px;
+    .list-item {
+        padding: 0 20px;
+        
+        @media screen and (min-width: 900px){
+            display: flex;
+            align-items: center;
+            // padding: 0 40px;
+        }
+
+        @media screen and (min-width: 1440px){
+            padding: 0;
+        }
+
+        > .h2 {
+            margin-bottom: 20px!important;
+            font-size: 100px!important;
+            @media screen and (max-width:900px) {
+                margin-bottom: 0!important;
+                font-size: 60px!important;
+            }
+        }
+
+        .item-content > h3 {
+            font-size: 25px!important;
+            
+            @media screen and (min-width: 600px){
+                font-size: 34px!important;
+            }
+        }
+
+        .item-content > p {
+            font-size: 20px!important;
+            line-height: 28px !important;
+            
+            @media screen and (min-width: 600px){
+                font-size: 25px!important;
+                line-height: 35px !important;
+            }
+        }
+
+        p:last-child {
+            margin-bottom: 40px;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 1px solid;
+            margin-bottom: 15px;
+        }
+
+        .item-number {
+            width: 329px;
+            flex-shrink: 0;
+            font-size: 100px;
+            font-weight: 200;
+            
+            @media screen and (min-width: 600px){
+                width: 329px;
+            }
+        }
+    }
+}

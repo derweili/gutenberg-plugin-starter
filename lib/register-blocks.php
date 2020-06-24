@@ -1,6 +1,6 @@
 <?php
 
-namespace Derweili\Plugin_Starter;
+namespace Antares\Plugin;
 
 add_action( 'init', __NAMESPACE__ . '\register_blocks', 40 );
 /**
@@ -15,16 +15,16 @@ function register_blocks() {
 
     // List all of the blocks for your plugin
     $blocks = [
-        "gutenbergpluginstarter/gallery",
+        "antaresplugin/gallery",
     ];
 
     // Register each block with same CSS and JS
     foreach( $blocks as $block ) {
-        if( "gutenbergpluginstarter/gallery" === $block ) {            
+        if( "antaresplugin/gallery" === $block ) {            
             register_block_type( $block, [
-                'editor_script' => 'gutenberg-plugin-starter-editor-js',
-                'editor_style'  => 'gutenberg-plugin-starter-editor-css',
-                'style' => 'gutenberg-plugin-starter-css',
+                'editor_script' => 'antares-plugin-editor-js',
+                'editor_style'  => 'antares-plugin-editor-css',
+                'style' => 'antares-plugin-css',
                 'attributes' => [                    
                     'images' => [
                         'type' => "array",
@@ -43,9 +43,9 @@ function register_blocks() {
         }
         else {            
             register_block_type( $block, [
-                'editor_script' => 'gutenberg-plugin-starter-editor-js',
-                'editor_style'  => 'gutenberg-plugin-starter-editor-css',
-                'style' => 'gutenberg-plugin-starter-css'
+                'editor_script' => 'antares-plugin-editor-js',
+                'editor_style'  => 'antares-plugin-editor-css',
+                'style' => 'antares-plugin-css'
              ] );	  
         }
     }

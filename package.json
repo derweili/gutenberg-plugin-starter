@@ -33,6 +33,8 @@
   "dependencies": {
     "react-google-maps": "^9.4.5",
     "react-images": "^0.5.19",
-    "react-photo-gallery": "^6.3.0"
+    "react-photo-gallery": "^6.3.0",
+    "react-slick": "^0.26.1",
+    "slick-carousel": "^1.8.1"
   }
 }

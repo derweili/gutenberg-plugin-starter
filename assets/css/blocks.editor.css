@@ -1,7 +1,22 @@
-.wp-block-gutenbergpluginstarter-gallery.column img {
-  height: auto; }
+@media screen and (min-width: 950px) {
+  .antares-section {
+    margin-left: 0;
+    margin-right: 0; } }
+.edit-post-visual-editor.editor-styles-wrapper .antares-slider .slick-prev {
+  left: -45px; }
 
-.wp-block-gutenbergpluginstarter-gallery.row img {
-  height: 100%; }
+.edit-post-visual-editor.editor-styles-wrapper .antares-slider .slick-next {
+  right: -45px; }
+
+.edit-post-visual-editor.editor-styles-wrapper .antares-slider .components-placeholder.components-placeholder {
+  margin-bottom: 0; }
+
+.edit-post-visual-editor.editor-styles-wrapper .antares-slider .content p {
+  font-size: 20px;
+  line-height: 30px; }
+@media screen and (min-width: 950px) {
+  .antares-section {
+    margin-left: 0;
+    margin-right: 0; } }
 
 /*# sourceMappingURL=blocks.editor.css.map*/

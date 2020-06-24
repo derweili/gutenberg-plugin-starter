@@ -14,7 +14,7 @@ const LayoutSwitcher = () => {
     hero: [
       createBlock("core/cover", { align: "full" }),
       createBlock("core/button", {
-        text: __("Layout Switcher", "gutenbergpluginstarter"),
+        text: __("Layout Switcher", "antaresplugin"),
         align: "center"
       }),
       createBlock("core/columns", { columns: 3 })
@@ -28,7 +28,7 @@ const LayoutSwitcher = () => {
       createBlock("core/spacer", { height: "20" }),
       createBlock("core/media-text", { mediaPosition: "right" }),
       createBlock("core/paragraph", {
-        placeholder: __("Outro Text", "gutenbergpluginstarter")
+        placeholder: __("Outro Text", "antaresplugin")
       })
     ]
   };
@@ -36,11 +36,11 @@ const LayoutSwitcher = () => {
   return (
     <Fragment>
       <PluginSidebarMoreMenuItem target="jsforwpadvgb-layout-switcher">
-        {__("Layout Switcher", "gutenbergpluginstarter")}
+        {__("Layout Switcher", "antaresplugin")}
       </PluginSidebarMoreMenuItem>
       <PluginSidebar
         name="jsforwpadvgb-layout-switcher"
-        title={__("Layout Switcher", "gutenbergpluginstarter")}
+        title={__("Layout Switcher", "antaresplugin")}
       >
         <SwitcherControls icons={icons} layouts={layouts} />
       </PluginSidebar>

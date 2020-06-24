@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: filters/registerBlockType.js:15
+msgid "Code Snippet"
+msgstr ""
+
+#: filters/registerBlockType.js:18
+msgid "Use for maximum codiness 💃"
+msgstr ""
+
+#: filters/registerBlockType.js:33
+msgid "💻"
+msgstr ""
+
+#: plugins/01-plugin-sidebar-demo/index.js:20
+msgid "Sidebar Header"
+msgstr ""
+
+#: plugins/01-plugin-sidebar-demo/index.js:22
+msgid "Plugin Sidebar Demo"
+msgstr ""
+
+#: plugins/02-toc/index.js:23
+msgid "Table of Contents"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/ResetControls.js:22
+msgid "Warning!"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/ResetControls.js:26
+msgid "This action will remove all blocks"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/ResetControls.js:28
+msgid "This can be undone before leaving the page with the Undo option."
+msgstr ""
+
+#: plugins/03-layout-switcher/components/ResetControls.js:43
+#: plugins/03-layout-switcher/components/SwitcherControls.js:29
+msgid "Reset Layout"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/SwitcherControls.js:13
+msgid "Layout Choices"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/SwitcherControls.js:16
+msgid "Hero"
+msgstr ""
+
+#: plugins/03-layout-switcher/components/SwitcherControls.js:22
+msgid "Feature"
+msgstr ""
+
+#: plugins/03-layout-switcher/index.js:31
+msgid "Outro Text"
+msgstr ""
+
+#: plugins/03-layout-switcher/index.js:43
+msgid "Layout Switcher"
+msgstr ""

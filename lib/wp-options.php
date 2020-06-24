@@ -1,6 +1,6 @@
 <?php
 
-namespace Derweili\Plugin_Starter;
+namespace Antares\Plugin;
 
 $option_name = "jsforwpadvgb_block_setting";
 
